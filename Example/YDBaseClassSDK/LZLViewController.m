@@ -7,6 +7,7 @@
 //
 
 #import "LZLViewController.h"
+#import <YDBaseClassSDK-umbrella.h>
 
 @interface LZLViewController ()
 
@@ -14,14 +15,17 @@
 
 @implementation LZLViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [LzlTest showOne];
+    DSToast *toast = [[DSToast alloc]initWithText:@"123"];
+    [toast showInView:self.view showType:DSToastShowTypeCenter];
+}
+
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

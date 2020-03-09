@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
@@ -24,6 +23,7 @@
 		71C11918BE06A27830D9B39F /* Pods_YDBaseClassSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436814B56F54C6BDA96216D /* Pods_YDBaseClassSDK_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D5188B43AB99B4C2EC3B873C /* Pods_YDBaseClassSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DF31F8B03F2646434909F3 /* Pods_YDBaseClassSDK_Example.framework */; };
+		FBC70A372415DF1500FD57D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,11 @@
 
 /* Begin PBXFileReference section */
 		0436814B56F54C6BDA96216D /* Pods_YDBaseClassSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDBaseClassSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11C3622D6B9F52663E891299 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		11C3622D6B9F52663E891299 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2929320D9492A94B5715E4AA /* Pods-YDBaseClassSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDBaseClassSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDBaseClassSDK_Example/Pods-YDBaseClassSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2B5EEADFC2FF8243811B1F1D /* Pods-YDBaseClassSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDBaseClassSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDBaseClassSDK_Tests/Pods-YDBaseClassSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		48868D3D7A5C973F5B6C117D /* Pods-YDBaseClassSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDBaseClassSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-YDBaseClassSDK_Example/Pods-YDBaseClassSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53AEB923C0149FF0A84BCAD0 /* YDBaseClassSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDBaseClassSDK.podspec; path = ../YDBaseClassSDK.podspec; sourceTree = "<group>"; };
+		53AEB923C0149FF0A84BCAD0 /* YDBaseClassSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDBaseClassSDK.podspec; path = ../YDBaseClassSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* YDBaseClassSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDBaseClassSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		655B42ACCE01C4A67EC65DDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		655B42ACCE01C4A67EC65DDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DF31F8B03F2646434909F3 /* Pods_YDBaseClassSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDBaseClassSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,9 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC70A372415DF1500FD57D8 /* Foundation.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				D5188B43AB99B4C2EC3B873C /* Pods_YDBaseClassSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,7 +103,6 @@
 				2B5EEADFC2FF8243811B1F1D /* Pods-YDBaseClassSDK_Tests.debug.xcconfig */,
 				FC67447276D6AE53CE6084C0 /* Pods-YDBaseClassSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				000DCAC7F58BBCA608EB1BDC /* [CP] Embed Pods Frameworks */,
+				8521003639D70D94AD363CC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,28 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		000DCAC7F58BBCA608EB1BDC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YDBaseClassSDK_Example/Pods-YDBaseClassSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YDBaseClassSDK/YDBaseClassSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDBaseClassSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDBaseClassSDK_Example/Pods-YDBaseClassSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7B943897E7F6B51EA8C3AC4D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,6 +316,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDBaseClassSDK_Tests/Pods-YDBaseClassSDK_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8521003639D70D94AD363CC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YDBaseClassSDK_Example/Pods-YDBaseClassSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YDBaseClassSDK/YDBaseClassSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDBaseClassSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDBaseClassSDK_Example/Pods-YDBaseClassSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD9ECEF4B391A03225A00CF6 /* [CP] Check Pods Manifest.lock */ = {

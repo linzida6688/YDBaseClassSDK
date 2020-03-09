@@ -6,7 +6,7 @@
 //  Copyright (c) 2020 1196917967@qq.com. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface LZLAppDelegate : UIResponder <UIApplicationDelegate>
 
